@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <title> Contact - Meet Patadia </title>
+        <link rel="stylesheet" href="mainCSS.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="mainJS.js"></script>
+    </head>
+
+    <body class="home-body">
+
+        <header>
+            <div class="main-div">
+                <div class="image-div">
+                    <img width="150px" height="150px" src = "zebru_image-removebg-preview.png">
+                </div>
+                <div class="lists">
+                    <a class="nav-item" href="home.html">Home</a>
+                    <a class="nav-item" href="about.html">About</a>
+                    <a class="nav-item" href="activity.html">Activity</a>
+                    <a class="nav-item" href="work.html">Project</a>
+                    <a class="nav-item" href="blog.html">Blog</a>
+                    <a class="nav-item" href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </header>
+
+
+        <div id="contact-a">
+            <div class="container">
+                <h1 style="text-align: center;">Contact Me</h1>
+                <div class="underline"></div>
+                <p style="text-align: center;">Here is how you can reach me</p>
+                <form onsubmit="event.preventDefault()">
+                    <div class="text-fields">
+                        <div class="form-content">
+                            <input type="text" class="text-input name-input" pattern="[a-zA-Z].{2,}"
+                                title="Must be alphbets only,minimum 3 " required>
+                            <label>
+                                <span style="transition-delay: 0ms;">N</span>
+                        <span style="transition-delay: 70ms;">a</span>
+                        <span style="transition-delay: 140ms;">m</span>
+                        <span style="transition-delay: 210ms;">e</span>
+                            </label>
+                        </div>
+                        <div class="form-content">
+
+                            <input type="text" class="text-input subject-input" required>
+                            <label>
+                                <span style="transition-delay: 0ms;">S</span>
+                                <span style="transition-delay: 140ms;">u</span>
+                                <span style="transition-delay: 210ms;">b</span>
+                                <span style="transition-delay: 280ms;">j</span>
+                                <span style="transition-delay: 350ms;">e</span>
+                                <span style="transition-delay: 420ms;">c</span>
+                                <span style="transition-delay: 490ms;">t</span>
+                            </label>
+                        </div>
+                        <div class="form-content">
+                            
+                            <input type="email" class="text-input email-input"
+                                required>
+                                <!-- pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" -->
+                            <label>
+                                <span style="transition-delay: 0ms;">E</span>
+                        <span style="transition-delay: 70ms;">m</span>
+                        <span style="transition-delay: 140ms;">a</span>
+                        <span style="transition-delay: 210ms;">i</span>
+                        <span style="transition-delay: 280ms;">l</span>
+                            </label>
+                        </div>
+                        <div class="form-content">
+                            
+                            <input type="text" class="text-input phone-input" 
+                                title="Exactly 10 digits  " required>
+                                <!-- pattern="[0-9]{10,10}" -->
+                            <label> 
+                                <span style="transition-delay: 0ms;">P</span>
+                                <span style="transition-delay: 70ms;">h</span>
+                                <span style="transition-delay: 140ms;">o</span>
+                                <span style="transition-delay: 210ms;">n</span>
+                                <span style="transition-delay: 280ms;">e</span>&nbsp;
+                                <span style="transition-delay: 350ms;">N</span>
+                                <span style="transition-delay: 420ms;">u</span>
+                                <span style="transition-delay: 490ms;">m</span>
+                                <span style="transition-delay: 630ms;">b</span> 
+                                <span style="transition-delay: 700ms;">e</span>
+                                <span style="transition-delay: 770ms;">r</span>
+                            </label>
+                        </div>
+    
+    
+                    </div>
+                    <textarea class="msgForm" placeholder="Enter Message" required></textarea>
+
+                </form>
+            </div>
+        </div>
+        <button type="submit" class="btn-dark">Submit</button>
+
+
+        <div class="contact-address">
+            <div class="contact-addr">
+                <i class="fa-solid fa-address-card fa-2x"></i>
+                <h3 style="margin-top: 15px; margin-bottom: 5px"> Address </h3>
+                <p> C-201, Guda Awaas fp368, Nr. Limbach mata temple, PDPU road, Raysan, Gandhinagar-382007 </p>
+            </div>
+            <div class="contact-map">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=GUDA FP368&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact-last">
+            <h1 style="padding: 50px;">Let's start your next project</h1>
+        </div>
+
+
+        <footer>
+            <div class="footer-main">
+                <div class="footer-address">
+                    <h3> Address </h3>
+                    <div class="underline2"></div>
+                    <p style="margin-left: 16px; text-align:justify"> C-201, Guda Awaas fp368, Nr. Limbach mata temple, PDPU road, Rayan, Gandhinagar, Gujarat-382007</p>
+                </div>
+                <div class="footer-navi">
+                    <h3> Navigation </h3>
+                    <div class="underline2"></div>
+                    <a class="footer-navi-item" href="">Home</a> <br>
+                    <a class="footer-navi-item" href="">About</a> <br>
+                    <a class="footer-navi-item" href="">Activity</a> <br>
+                    <a class="footer-navi-item" href="">Work</a> <br>
+                    <a class="footer-navi-item" href="">Gallery</a> <br>
+                    <a class="footer-navi-item" href="">Contact Us</a> 
+                </div>
+                <div classs="footer-follow">
+                    <h3>Follow Me</h3>
+                    <div class="underline2"></div>
+                    <a href="https://www.facebook.com/profile.php?id=100009719227175">
+                        <i style="margin: 9px; color: white;  text-decoration: none;" class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/meetpatadia9/?fbclid=IwAR05zM3jPAEfBn22nElv7cwYxLhO9KTimO66HR2d5TelMZLVTJKssy20euo">
+                        <i style="margin: 9px; color: white; text-decoration: none;" class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/meet-patadia-858520217/">
+                        <i style="margin: 9px; color: white;  text-decoration: none;" class="fa-brands fa-linkedin fa-2x"></i>    
+                    </a>
+                    <a href="https://twitter.com/meetpatadia9?fbclid=IwAR3O8pY8Z4gjK5zhftY4RHNbC3aBRIczOHKCdNzkFodbAOUYVoLzRryHvhU">
+                        <i style="margin: 9px; color: white;  text-decoration: none;" class="fa-brands fa-twitter fa-2x"></i>
+                    </a>
+                    <br>
+                    <a style="text-decoration: none;" href="mailto:patadiam09@gmail.com">
+                        <i style="margin-top: 20px; color: white;  text-decoration: none;" class="fa-regular fa-envelope fa-2x"></i> 
+                    </a>
+                    <lable style="color: white; font-size: 18px; margin: 2px;"> patadiam09@gmail.com </lable>
+                    <br>
+                    <i style="margin-top: 20px; color: white;  text-decoration: none;" class="fa-solid fa-phone fa-2x"></i> 
+                    <lable style="color: white; font-size: 18px; margin: 2px;"> +91 8734963629 </lable>
+                </div>  
+            </div>
+            <p style="color: white; margin-top: 40px; text-align: center; font-size: 18px;"> Copyright © 2022 Reserved </p>
+        </footer>
+
+    </body>
+
+</html>

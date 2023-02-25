@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title> Blog - Meet Patadia </title>
+        <link rel="stylesheet" href="mainCSS.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="mainJS.js"></script>
+    </head>
+
+    <body class="home-body">
+
+        <header>
+            <div class="main-div">
+                <div class="image-div">
+                    <img width="150px" height="150px" src = "zebru_image-removebg-preview.png">
+                </div>
+                <div class="lists">
+                    <a class="nav-item" href="home.html">Home</a>
+                    <a class="nav-item" href="about.html">About</a>
+                    <a class="nav-item" href="activity.html">Activity</a>
+                    <a class="nav-item" href="work.html">Project</a>
+                    <a class="nav-item" href="blog.html">Blog</a>
+                    <a class="nav-item" href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="blog1">
+            <img width="50" height="50" style="border-radius: 25px;" src="zebru_image.jpg">
+            <label style="font-size: 31;"> BLOG POST ONE </label> <br><br>
+            <i class="fa-solid fa-user"></i>
+            <label style="font-size:18px"> Posted by <b>Meet Patadia</b> | April 29 2021 </label>
+            <p style="margin-top: 10px;"> I am Meet Patadia and I am a freelance UX/UI designer. I have a personal philosophy in life: If somebody else can do something that i am doing, they should do it. And,
+                <span class="readMore1">
+                    what i want to do is find things that would represent a unique contribution to the world - that contribution that only I, and My Protfolio of talents can make happen. Those are my priorities in Life.
+                </p>
+                </span>
+                <button class="btnRead1" onclick="display1();">Read More</button>
+            </div>
+
+
+        <div class="blog2">
+            <img width="50" height="50" style="border-radius: 25px;" src="zebru_image.jpg">
+            <label style="font-size: 31;"> BLOG POST TWO </label> <br><br>
+            <i class="fa-solid fa-user"></i>
+            <label style="font-size:18px"> Posted by <b>Meet Patadia</b> | </label> 
+            <span id="dateNow" style="font-size:18px"></span>
+            <p style="margin-top: 10px;">Over the last Three years, I Have the Pleasure of working with some Great Companies, Clients, working
+            <span class="readMore2">
+                side by side to design and develop new apps and improve upon existing products, See for Yourself
+                    </p>
+            </span>
+            <button class="btnRead2" onclick="display2();">Read More</button>
+        </div>
+
+
+        <script>
+            var  months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            var d = new Date();
+            var DD = d.getDate();
+            var MM = months[d.getMonth()];
+            var YYYY = d.getFullYear();
+            document.getElementById("dateNow").innerHTML = MM + " " + DD + " " + YYYY;
+        </script>
+
+
+        <footer>
+            <div class="footer-main">
+                <div class="footer-address">
+                    <h3> Address </h3>
+                    <div class="underline2"></div>
+                    <p style="margin-left: 16px; text-align:justify"> C-201, Guda Awaas fp368, Nr. Limbach mata temple, PDPU road, Rayan, Gandhinagar, Gujarat-382007</p>
+                </div>
+                <div class="footer-navi">
+                    <h3> Navigation </h3>
+                    <div class="underline2"></div>
+                    <a class="footer-navi-item" href="">Home</a> <br>
+                    <a class="footer-navi-item" href="">About</a> <br>
+                    <a class="footer-navi-item" href="">Activity</a> <br>
+                    <a class="footer-navi-item" href="">Work</a> <br>
+                    <a class="footer-navi-item" href="">Gallery</a> <br>
+                    <a class="footer-navi-item" href="">Contact Us</a> 
+                </div>
+                <div classs="footer-follow">
+                    <h3>Follow Me</h3>
+                    <div class="underline2"></div>
+                    <a href="https://www.facebook.com/profile.php?id=100009719227175">
+                        <i style="margin: 9px; color: white;  text-decoration: none;" class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/meetpatadia9/?fbclid=IwAR05zM3jPAEfBn22nElv7cwYxLhO9KTimO66HR2d5TelMZLVTJKssy20euo">
+                        <i style="margin: 9px; color: white; text-decoration: none;" class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/meet-patadia-858520217/">
+                        <i style="margin: 9px; color: white;  text-decoration: none;" class="fa-brands fa-linkedin fa-2x"></i>    
+                    </a>
+                    <a href="https://twitter.com/meetpatadia9?fbclid=IwAR3O8pY8Z4gjK5zhftY4RHNbC3aBRIczOHKCdNzkFodbAOUYVoLzRryHvhU">
+                        <i style="margin: 9px; color: white;  text-decoration: none;" class="fa-brands fa-twitter fa-2x"></i>
+                    </a>
+                    <br>
+                    <a style="text-decoration: none;" href="mailto:patadiam09@gmail.com">
+                        <i style="margin-top: 20px; color: white;  text-decoration: none;" class="fa-regular fa-envelope fa-2x"></i> 
+                    </a>
+                    <lable style="color: white; font-size: 18px; margin: 2px;"> patadiam09@gmail.com </lable>
+                    <br>
+                    <i style="margin-top: 20px; color: white;  text-decoration: none;" class="fa-solid fa-phone fa-2x"></i> 
+                    <lable style="color: white; font-size: 18px; margin: 2px;"> +91 8734963629 </lable>
+                </div>  
+            </div>
+            <p style="color: white; margin-top: 40px; text-align: center; font-size: 18px;"> Copyright © 2022 Reserved </p>
+        </footer>
+
+    </body>
+
+
+</html>
